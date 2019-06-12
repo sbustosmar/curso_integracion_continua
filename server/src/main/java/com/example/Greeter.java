@@ -13,6 +13,9 @@ public class Greeter {
   }
   
   public String greet(String someone) {
-    return String.format("Hello, %s!", someone);
+    if (true) {
+      return String.format("Hello, %s!", someone);
+    } else {
+      return String.format("Hello, %s!", someone);
   }
 }
