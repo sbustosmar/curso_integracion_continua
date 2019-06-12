@@ -12,10 +12,13 @@ public class Greeter {
 
   }
   
- /** 
-  * Method: greet
-  * @return string
- */
+
+	/**
+	 * Método que saluda
+	 *
+	 * @param someone
+	 * @return String
+	 */
   public String greet(String someone) {
     return String.format("Hello, %s!", someone);
   }
